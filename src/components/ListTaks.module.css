@@ -1,0 +1,36 @@
+.divList {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7rem;
+    width: 48rem;
+}
+
+.divList p {
+    font-weight: bold;
+}
+
+.divList p span {
+    margin-left: 0.5rem;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.1rem 1rem;
+    border-radius: 8px;
+    min-width: 200px;
+}
+
+.createdTask {
+    color: var(--blue);
+}
+
+.finishedTask {
+    color: var(--purple);
+}
+
+@media(max-width: 768px) {
+    .divList {
+        width: 28rem;
+    }
+}
